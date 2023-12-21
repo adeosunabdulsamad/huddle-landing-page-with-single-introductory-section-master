@@ -1,0 +1,23 @@
+*{
+    color: white;
+}
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+}
+.attribution {
+    font-size: 11px; text-align: center; 
+    width: 100%;
+    }
+.attribution a { 
+    color: hsla(228, 42%, 23%, 0); 
+}
+#main {
+    float: left;
+    width: 50%;
+}
+#aside {
+    float: right;
+    width: 50%;
+}
