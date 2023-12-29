@@ -17,12 +17,13 @@ body{
 #aside p{
     color: white;
     font-size: 1.3em;
+    font-weight: 400;
 }
 .attribution {
     font-size: 11px; text-align: center; 
     width: 100%;
     position: absolute;
-    bottom: 1px;
+    bottom: 10px;
   
     }
 .attribution a, p{ 
@@ -79,3 +80,60 @@ body{
     color: hsl(300, 69%, 71%);
     cursor: grabbing;
 }
+@media screen and (max-width: 768px) {
+    body{
+        background-color: hsl(257, 40%, 49%);
+        background-image: url(./images/bg-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat; /* The width is 100%, when the viewport is 768px or smaller */
+    }
+    #main,#aside {
+        float: none;
+        width: 92%;
+        height: 35%;
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 4%;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+    }
+    h1{
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+    #aside p{
+        float: none;
+        color: white;
+        font-size: 1em;
+    }
+    #links{
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        bottom: 6%;
+    }
+    .socials{
+        color: white;
+        font-size: 20px;
+        margin-right: 2%;
+    }
+    .attribution {
+        font-size: 6px; text-align: center; 
+        width: 100%;
+        position: absolute;
+        bottom: 2%;
+      }
+      #register_button {
+        background-color: white;
+        border-radius: 5em;
+        height: 3em;
+        width: 10em;
+        border-color: none;
+        justify-content: center;
+        align-content: center;
+        color: hsl(257, 40%, 49%);
+        font-weight: 400;
+        font-size: 12px;
+  }
