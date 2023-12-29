@@ -1,8 +1,9 @@
-*{
-    color: white;
-}
+
 h1{
     font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 3.4em;
+    font-weight: 600;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -10,56 +11,71 @@ body{
 body{
     background-color: hsl(257, 40%, 49%);
     background-image: url(./images/bg-desktop.svg);
-    background-size: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
+#aside p{
+    color: white;
+    font-size: 1.3em;
+}
 .attribution {
     font-size: 11px; text-align: center; 
     width: 100%;
+    position: absolute;
+    bottom: 1px;
+  
     }
-.attribution a { 
-    color: hsla(228, 42%, 23%, 0); 
+.attribution a, p{ 
+    color: white; 
+    text-decoration: none;
+}
+.attribution a:hover{
+    color: hsl(300, 69%, 71%);
 }
 #main {
     float: left;
     width: 45%;
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 3%;
+    margin-left: 4%;
 }
 #aside {
     float: right;
-    width: 45%;
-    margin-left: 5%;
-    margin-top: 10%;
+    width: 42%;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-right: 2%;
 }
 #register_button {
     background-color: white;
     border-radius: 5em;
-    height: 4em;
+    height: 3em;
     width: 10em;
     border-color: none;
     justify-content: center;
     align-content: center;
     color: hsl(257, 40%, 49%);
+    font-weight: 600;
+    font-size: 20px;
 }
 #register_button:hover{
     background-color: hsl(300, 69%, 71%);
-    border-radius: 5em;
-    height: 4em;
-    width: 10em;
-    border-color: none;
-    justify-content: center;
-    align-content: center;
     color: white;
     cursor: grabbing;
 }
 #links{
-    margin-top: 18%;
-    float: right;
-    width: 15%;
+    width: 14%;
     justify-content: right;
+    position: absolute;
+    bottom: 10px;
+    left: 86%
 }
 .socials{
-    margin-left: 1%;
-    margin-bottom: 2%;
+    color: white;
+    font-size: 48px;
+    margin-right: 15px;
+  
+}
+.socials:hover{
+    color: hsl(300, 69%, 71%);
+    cursor: grabbing;
 }
